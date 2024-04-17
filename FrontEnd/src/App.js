@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import DashHome from "./dashboard/DashHome";
+import Users from "./dashboard/Users";
+import Orders from "./dashboard/Orders";
+import DashProducts from "./dashboard/DashProducts";
+import DashSettings from "./dashboard/DashSettings";
+
+const router = createBrowserRouter([
+  { path: "/", element: <DashHome /> },
+  { path: "/dashboard/home", element: <DashHome /> },
+  { path: "/dashboard/users", element: <Users /> },
+  { path: "/dashboard/orders", element: <Orders /> },
+  { path: "/dashboard/product", element: <DashProducts /> },
+  { path: "/dashboard/setting", element: <DashSettings /> },
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
