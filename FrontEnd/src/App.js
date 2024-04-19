@@ -1,7 +1,7 @@
 import "./App.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import DashHome from "./dashboard/DashHome";
+import DashHome from "./dashboard/DashHome/DashHome";
 import Users from "./dashboard/Users";
 import Orders from "./dashboard/Orders";
 import DashProducts from "./dashboard/DashProducts";
