@@ -1,0 +1,16 @@
+.dashboard{
+    display: flex;
+    gap: 20px;
+    background-color: #FFFFDA;
+    color: #BE4040;
+}
+.dashcontent{
+    background-color: #fff;
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    margin-left: 5px;
+    margin-right :20px; ;
+    justify-content: center;
+    margin-top: 50px;
+}
