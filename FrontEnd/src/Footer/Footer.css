@@ -1,0 +1,25 @@
+.footer{
+  display: flex;
+  width: 100%;
+  background-color: #FFFFDA;
+  color: #BE4040;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.footer div{
+  padding: 0.5rem;
+  font-family: -webkit-body;
+  font-size: x-large;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .footer div{
+    padding: 0.25rem;
+    font-size: large;
+  }
+}
