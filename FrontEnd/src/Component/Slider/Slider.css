@@ -1,0 +1,99 @@
+.slider{
+  width: 60rem;
+  height: 25rem;
+  position: relative;
+}
+.slide{
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+}
+.leftArrow{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top:50%;
+  transform: translate(0,-50%);
+  left:32px;
+  font-size: 45px;
+  color: #FFFFDA;
+  z-index: 1;
+  cursor: pointer;
+  text-align: center;
+}
+.rightArrow{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top:50%;
+  transform: translate(0,-50%);
+  right:32px;
+  font-size: 45px;
+  color: #FFFFDA;
+  z-index: 1;
+  cursor: pointer;
+  text-align: center;
+
+}
+.slidesDots{
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+
+}
+.slidesDot{
+margin: 0 0.25rem;
+cursor: pointer;
+font-size: 1.2rem;
+border-radius: 20px;
+}
+.slidesDot.active{
+  color: #BE4040;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 375px) {
+  .slider{
+    width: 18rem;
+    height: 12rem;
+  }
+  .slide{
+    border-radius: 30px;
+
+  }
+  .leftArrow , .rightArrow{
+    font-size: 35px;
+  }
+}
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 426px) {
+  .slider{
+    width: 20rem;
+    height: 13rem;
+  }
+  .slide{
+    border-radius: 30px;
+
+  }
+  .leftArrow , .rightArrow{
+    font-size: 37px;
+  }
+}
+@media only screen
+and (min-device-width : 426px)
+and (max-device-width : 768px) {
+  .slider{
+    width: 35rem;
+    height: 20rem;
+  }
+  .slide{
+    border-radius: 40px;
+
+  }
+
+}

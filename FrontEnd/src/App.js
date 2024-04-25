@@ -6,12 +6,13 @@ import Users from "./dashboard/Users";
 import Orders from "./dashboard/Orders";
 import DashProducts from "./dashboard/DashProducts/DashProducts";
 import DashSettings from "./dashboard/DashSettings";
-import Home from "./Component/Home/Home";
-import Profile from "./Component/Profile/Profile";
-import EditProfile from "./Component/EditProfile/EditProfile"
-import Cart from "./Component/Cart/Cart";
-import Checkout from "./Component/Checkout/Checkout"
+import Home from "./Pages/Home/Home";
+import Profile from "./Pages/Profile/Profile";
+import EditProfile from "./Pages/EditProfile/EditProfile"
+import Cart from "./Pages/Cart/Cart";
+import Checkout from "./Pages/Checkout/Checkout"
 import AddProduct from "./dashboard/AddProduct/AddProduct";
+
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
   {path:"/cart" , element: <Cart />},
   {path: "/cart/checkout" , element:<Checkout />},
   { path: "/dashboard/addproduct", element: <AddProduct /> },
+  
 ]);
 
 function App() {
