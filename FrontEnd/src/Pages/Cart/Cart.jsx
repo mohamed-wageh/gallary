@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Cart.css"
-import Navbar from '../.././Navbar/Navbar';
-import Footer from "../.././Footer/Footer"
+import Navbar from '../../Component/Navbar/Navbar';
+import Footer from "../../Component/Footer/Footer"
 const Cart = () => {
   return (
     <>
