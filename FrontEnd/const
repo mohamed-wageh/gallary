@@ -1,0 +1,16 @@
+colors :   دى كل اللالوان اللى استخدمتخا يا ولاد
+ #BE4040  اللون المحمر
+ #FFFFDA اللون المصفر
+ #fff ابيض عادى
+ gray رمادى
+   ;
+button :  استايل الزرار 
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #be4040;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  width: 90px;
+  ;
