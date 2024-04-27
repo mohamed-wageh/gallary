@@ -19,9 +19,7 @@ function AddProduct() {
 
   return (
 
-    <div className="dashboard">
-      <Topbar/>
-      <Sidebar />
+    <div>
       <div className="dashcontent">
       <div className="newProduct">
             <h1 className="addProductTitle">New Product</h1>

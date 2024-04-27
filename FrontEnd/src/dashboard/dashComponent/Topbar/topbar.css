@@ -13,14 +13,6 @@
     align-items: center;
     justify-content: space-between;
 }
-.logoo{
-    text-align: center;
-    padding: 20px;
-    color: #BE4040;
-    align-items: center;
-    display: flex;
-    gap: 20px;
-}
 .topRight{
     display: flex;
     align-items: center;

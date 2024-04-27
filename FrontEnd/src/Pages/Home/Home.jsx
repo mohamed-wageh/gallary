@@ -20,14 +20,9 @@ const Home = () => {
     },
   ]
   return (
-    <>
-    <Navbar />
       <div className='home'>
         <Slider slides={slides} />
       </div>
-    
-      <Footer />
-    </>
   )
 }
 

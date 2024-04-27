@@ -12,28 +12,27 @@ import { Link } from "react-router-dom";
 function Sidebar() {
   return (
     <div className="menu">
-
       <div className="menu--list">
-        <a href="/dashboard/home" className="item">
+        <Link to="/dashboard/home" className="item">
           <HomeIcon className="icon" />
           Home
-        </a>
-        <a href="/dashboard/product" className="item">
+        </Link>
+        <Link to="/dashboard/product" className="item">
           <Inventory2Icon className="icon" />
           Products
-        </a>
+        </Link>
         <Link to="/dashboard/orders" className="item">
           <LocalMallIcon className="icon" />
           Orders
         </Link>
-        <a href="/dashboard/users" className="item">
+        <Link to="/dashboard/users" className="item">
           <PersonIcon className="icon" />
           Users
-        </a>
-        <a href="/dashboard/setting" className="item">
+        </Link>
+        <Link to="/dashboard/setting" className="item">
           <SettingsIcon className="icon" />
           Settings
-        </a>
+        </Link>
       </div>
     </div>
   );
